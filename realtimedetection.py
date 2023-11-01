@@ -39,22 +39,22 @@ while True:
             cv2.putText(im, '% s' %(prediction_label), (p-10, q-10),cv2.FONT_HERSHEY_COMPLEX_SMALL,2, (0,0,255))
 
             
-        if(final_face == 'happy'):
-            url= 'https://www.javatpoint.com/python-tutorial'
-            webbrowser.open_new_tab(url)  
-            break
-        elif(final_face == 'sad'):
-            url= 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj97e6i84eCAxWlT2wGHdvOAtoQtwJ6BAgOEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsZfnwayum2M&usg=AOvVaw1pPMLEMqRobikwY67FZpjV&opi=89978449'
-            webbrowser.open_new_tab(url)
-            break
-        elif(final_face == 'angry'):
-            url= 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjSv56184eCAxVBRWcHHV1GB-8QwqsBegQICxAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_mEC54eTuGw&usg=AOvVaw2GRcpJpIxnNnpr_2L03ROG&opi=89978449'
-            webbrowser.open_new_tab(url)
-            break
-        elif(final_face == 'surprise'):
-            url= 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj6l47F84eCAxW8V2wGHchUATAQwqsBegQICRAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbMlJKBXU1v4&usg=AOvVaw0FYmcHrlFYuAE5pt53DG14&opi=89978449'
-            webbrowser.open_new_tab(url)
-            break
+            #if(final_face == 'happy'):
+               # url= 'https://www.youtube.com/watch?v=MBRCnjVecq8&pp=ygULaGFwcHkgc29uZ3M%3D'
+               # webbrowser.open_new_tab(url)  
+               # break
+            #if(final_face == 'sad'):
+             #   url= 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj97e6i84eCAxWlT2wGHdvOAtoQtwJ6BAgOEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsZfnwayum2M&usg=AOvVaw1pPMLEMqRobikwY67FZpjV&opi=89978449'
+              #  webbrowser.open_new_tab(url)
+               # break
+            if(final_face == 'angry'):
+                url= 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjSv56184eCAxVBRWcHHV1GB-8QwqsBegQICxAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_mEC54eTuGw&usg=AOvVaw2GRcpJpIxnNnpr_2L03ROG&opi=89978449'
+                webbrowser.open_new_tab(url)
+                break
+            elif(final_face == 'surprise'):
+                url= 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj6l47F84eCAxW8V2wGHchUATAQwqsBegQICRAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbMlJKBXU1v4&usg=AOvVaw0FYmcHrlFYuAE5pt53DG14&opi=89978449'
+                webbrowser.open_new_tab(url)
+                break
                 
 
         cv2.imshow("Output",im)

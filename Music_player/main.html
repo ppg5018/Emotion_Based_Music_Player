@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu_side">
+                <div class="option-container">
+                    <h1>Playlist</h1>
+                    <div class="playlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-music-note" viewBox="0 0 16 16">
+                            <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                            <path fill-rule="evenodd" d="M9 3v10H8V3h1z"/>
+                            <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"/>
+                          </svg>
+                          <p>Playlist</p>
+                    </div>
+                    <div class="last_listening">
+                        <div class="dot"></div>
+                        <p>Last Listening</p>
+                    </div>
+                    <div class="recommend">
+                        <div class="dot"></div>
+                        <p>Recommended</p>
+                    </div>
+                </div>  
+            </div>
+            <div class="song_side">
+                <div class="nav-bar">
+                    <div class="buttons">
+                    <button onclick="runPythonScript()">Discover</button>
+                    <button>My Library</button>
+                    <button>Radio</button> 
+                </div>
+                <div class="search-bar">
+                    <input type = "text" placeholder="   Search Music...">
+                    <img  class = "search_logo"src="search.png" width="30px" height="30px">
+                </div>
+                </div>
+
+                <div class="main-screen">
+                    <div class="song-img">
+                        <img class="artist-img" src ="img1.jpeg"> 
+                    </div>
+                    <div class="slidercontainer">
+                        <input type="range" min="1" max="100" value="51" class="slider" id="myRange">
+                    </div>
+                    <div class="play-pause-container">
+                        <img class = "previous-img" src="forward.png" width="40px" height="40px" >
+                        <img class = "play-img" src="play.png" width="40px" height="40px">
+                        <img class = "pause-img" src="pause.png" width="40px" height="40px">
+                        <img class = "next-img" src="forward.png" width="40px" height="40px">
+                    </div>
+                </div>
+            </div>
+            <div class="master_play"></div>
+        </header>
+
+        <script src="" async defer></script>
+    </body>
+</html>
